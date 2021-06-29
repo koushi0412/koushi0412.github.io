@@ -2,41 +2,57 @@
     color: #ff0000;
 }
 .subtitle{
-    color: #2701ff
+    color: #000000
 }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* 大枠（気にしないでください） */
+  body {
+    width: 70%;
+  }
+  h2,
+  #wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
 /* アコーディオン ここから */
 dl {
-    width: 350px;
-    margin: 0 auto 10px auto;
-    color: #fff;
-    font-size: 10px;
-  }
-  dl:first-child {
-    margin-top:10px;
-  }
-  dt {
-    position:relative;
-    display: block;
-    padding: 20px 0 20px 20px;
-    background-color: #333333;
-  }
-  dt:after {
-    content: "＞";
-    position: absolute;
-    top: 35%;
-    left: 85%;
-    transform: rotate(90deg);
-  }
-  dt.close:after {
-    content: "＜";
-    position: absolute;
-    top: 35%;
-    left: 85%;
-    transform: rotate(-270deg);
-  }
-  dd {
-    display: none;
-    padding: 20px 0 20px 40px;
-    color: #000;
-  }
+  width: 350px;
+  margin: 0 auto 10px auto;
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+}
+dl:first-child {
+  margin-top:10px;
+}
+dt {
+  position:relative;
+  display: block;
+  padding: 20px 0 20px 20px;
+  background-color: #333333;
+}
+dt:after {
+  content: "＞";
+  position: absolute;
+  top: 35%;
+  left: 85%;
+  transform: rotate(90deg);
+}
+dt.close:after {
+  content: "＜";
+  position: absolute;
+  top: 35%;
+  left: 85%;
+  transform: rotate(-270deg);
+}
+dd {
+  display: none;
+  padding: 20px 0 20px 40px;
+  color: rgb(0, 0, 0);
+}
+
   /* ここまで */
