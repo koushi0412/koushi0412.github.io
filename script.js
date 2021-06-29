@@ -1,5 +1,6 @@
 $(function() {
-    $(".accordion").click(function() {
-      $(this).toggleClass("close").next().slideToggle();
-    });
+  $(".accordion").click(function() {
+
+$(this).toggleClass("close").next().slideToggle();
   });
+});
