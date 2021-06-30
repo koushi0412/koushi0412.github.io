@@ -1,8 +1,12 @@
 .title {
+  /*テキストを中心に赤で配置*/
+    text-align: center;
     color: #ff0000;
 }
 .subtitle{
-    color: #000000
+  /*テキストを中心に黒で配置*/
+    text-align: center;
+    color: #000000;
 }
 
 * {
@@ -11,22 +15,25 @@
   }
   /* 大枠（気にしないでください） */
   body {
-    width: 70%;
+    width: 100%;
+    background-color: #ffc7ee;
   }
   h2,
   #wrapper {
-    width: 100%;
+    width: center;
     margin: 0 auto;
   }
 
 /* アコーディオン ここから */
 dl {
-  width: 350px;
+  width: 400px;
+  /*ボタンの間の距離*/
   margin: 0 auto 10px auto;
   color: rgb(255, 255, 255);
   font-size: 10px;
 }
 dl:first-child {
+/*一番上のボタンとその上の文章の距離*/
   margin-top:10px;
 }
 dt {
