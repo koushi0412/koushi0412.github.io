@@ -30,7 +30,7 @@ dl {
   /*ボタンの間の距離*/
   margin: 0 auto 10px auto;
   color: rgb(255, 255, 255);
-  font-size: 10px;
+  font-size: 20px;
 }
 dl:first-child {
 /*一番上のボタンとその上の文章の距離*/
