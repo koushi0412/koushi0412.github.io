@@ -15,8 +15,7 @@
 
 .box p{
   position: absolute;
-  font-size: 7vmin;
-  top: 10vw;
+  top: 20vh;
   left: 50vw;
   transform: translate(-50%, -50%);
 }
