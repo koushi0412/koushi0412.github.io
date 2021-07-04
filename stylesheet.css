@@ -1,8 +1,9 @@
 
 .subtitle{
   /*テキストを中心に黒で配置*/
-    text-align: center;
-    color: #000000;
+  text-align: center;
+  color: #000000;
+  font-size: large;
 }
 
 .title img { 
@@ -33,7 +34,7 @@
   position: absolute;
   top: 50%;
   display: inline-block;
-  width: 70px;
+  width: 100px;
   height: 2px;
   border-top: solid 1px yellow;
   border-bottom: solid 1px yellow;
@@ -44,6 +45,15 @@
 }
 .title p:after {
   right: 0;
+}
+
+.time {
+  position:absolute;
+  top: 0;/*画像の左上に配置*/
+  left: 0;
+  margin: 0; /*余計な隙間を除く*/
+  font-size: 15px;
+  padding: 5px 10px;/*文字周りの余白*/
 }
 
 * {
@@ -59,6 +69,10 @@
   #wrapper {
     width: center;
     margin: 0 auto;
+  }
+  
+.accordion{
+  text-align: center;
   }
 
 /* アコーディオン ここから */
