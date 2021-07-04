@@ -1,23 +1,43 @@
-.title{
-    /*テキストを中心に赤で配置*/
-    text-align: center;
-    color: #ff0000;
-}
+
 .subtitle{
   /*テキストを中心に黒で配置*/
     text-align: center;
     color: #000000;
 }
-.box img { 
+
+.title img { 
   position: relative;
   width: 100vw; 
 }
 
-.box p{
+.title p {
   position: absolute;
+  display: inline-block;
+  padding: 0 55px;
+  font-size: 40px;
   top: 20vh;
-  left: 50vw;
+  left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.title p:before, .title p:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 2px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.title p:before {
+  left:0;
+}
+.title p:after {
+  right: 0;
 }
 
 * {
