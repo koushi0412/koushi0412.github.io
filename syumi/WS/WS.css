@@ -7,8 +7,23 @@ body{
     color:rgb(0, 0, 0)
 }
 .title{
-    font-size: large;
-    color:black
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color:rgb(0, 102, 17)
+}
+.top-banner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.top-banner li {
+    width: clac(100%/4);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.top-banner li img {
+    max-width: 50%;
+    height: auto;
 }
 div {
     display: inline-block;
