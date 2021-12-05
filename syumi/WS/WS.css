@@ -17,7 +17,7 @@ body{
     flex-wrap: wrap;
 }
 .top-banner li {
-    width: clac(100%/4);
+    width: 30%;
     padding: 10px;
     box-sizing: border-box;
 }
