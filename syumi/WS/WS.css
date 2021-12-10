@@ -17,11 +17,19 @@ body{
     flex-wrap: wrap;
 }
 .top-banner li {
+<<<<<<< HEAD
     width: clac(100%/4);
+=======
+    width: 30%;
+>>>>>>> c5ba43bbfaa93c0ff5a8aba3fe5492fb66b06217
     padding: 10px;
     box-sizing: border-box;
 }
 .top-banner li img {
     max-width: 50%;
     height: auto;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c5ba43bbfaa93c0ff5a8aba3fe5492fb66b06217

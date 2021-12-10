@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 208, 253)
+}
+
+.title img { 
+    position: relative;
+    width: 90vw; 
+  }
+
+.title p {
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+.top-banner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.top-banner li {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.top-banner li img {
+    max-width: 50%;
+    height: auto;
+}
