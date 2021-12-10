@@ -26,3 +26,7 @@ body{
     height: auto;
 
 }
+.title {
+    text-align: center;
+    text-size-adjust: 100px;
+}
