@@ -11,6 +11,13 @@
   width: 100vw; 
 }
 
+.title .sub img {
+  position: absolute;
+  width: 25%;
+  left:73%;
+  top:0px;
+}
+
 .title p {
   position: absolute;
   display: inline-block;
