@@ -17,11 +17,12 @@ body{
     flex-wrap: wrap;
 }
 .top-banner li {
-    width: 30%;
+    width: 25%;
     padding: 10px;
     box-sizing: border-box;
 }
 .top-banner li img {
     max-width: 50%;
     height: auto;
+
 }
